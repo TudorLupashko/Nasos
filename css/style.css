@@ -1,0 +1,109 @@
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+*{
+    padding:0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    margin: 0;
+    max-height: 760px;
+}
+.container {
+    margin: 0 43px 10px 52px;
+}
+
+.header {
+background-color: #fff;
+max-width: 1200px;
+height: 112px;
+}
+
+.header__inner{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.header__rectangle{
+content: "";
+display: block;
+width: 152px;
+height: 26px;
+background: #fff1b3;
+margin-top: 40px;
+}
+
+.header__circle {
+content: "";
+width: 67px;
+height: 68px;
+border-radius: 50%;
+background-color: #4a919d;
+margin-top: 20px;
+}
+
+.header__rectag2 {
+ content: "";
+ width: 39px;
+ height: 16px;
+ background-color: #fff1b3;
+}
+
+.section{
+ max-width: 1200px;
+ height: 642px;
+ background-color: #ddedef;
+ padding-top: 22px;
+
+}
+
+.intro {
+ width: 100%;
+ content: "";
+ max-width:340px;
+ height: 588px;
+ background-color: #fff;
+ margin-left: 52px;
+
+}
+.intro__inner {
+display: flex;
+justify-content: space-between;
+}
+
+.intro__item {
+position: relative;
+content: "";
+width: 132px;
+height: 32px;
+background-color: #c8d9e7;
+margin: 45px auto 0;
+}
+.intro__blok{
+overflow-y: scroll;  /* можно заменить auto */
+width: 298px;
+height: 471px;
+border: 1px solid #d5d5d5;
+margin: auto;
+margin-top: 20px;
+
+}
+
+.intro__img{
+position: absolute;
+top: 5px;
+right: 15px;
+z-index: 2;
+margin: auto;
+}
